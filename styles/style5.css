@@ -1,0 +1,155 @@
+@font-face { font-family: GlitchGoblin; src: url('../fonts/GlitchGoblin-2O87v.ttf'); } 
+@font-face { font-family: Coolvetica; src: url('../fonts/coolvetica.otf'); } 
+@font-face { font-family: Cedge; src: url('../fonts/cedge1.ttf'); } 
+@font-face { font-family: goodtimes; src: url('../fonts/goodtimes.otf'); } 
+
+
+
+html,body{
+    background-image: url(../images/nc2077.jpg);
+}
+
+
+
+
+h1{
+    color: rgb(255, 5, 159);
+    text-align: left;
+    font-family: goodtimes;
+}
+.logo img{
+    float: left;
+    width: 500px;
+    height: auto;
+}
+
+header{
+    background-color:#070622;
+    color: rgb(255, 5, 159);
+    font-family: Coolvetica;
+    text-align: center;
+    font-size: 35px;   
+    border:3px solid #ff1111;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+nav ul{
+ padding:0;
+ color: white;
+ font-family: Coolvetica;
+ }
+nav li {
+ display: inline;
+ margin-left: 120px;
+}
+nav li img{
+    height: auto;
+    width: 80px;
+    position: absolute;
+    top:35px;
+    right:90px;
+}
+
+
+a:link{
+    color:white;
+}
+
+a:visited{
+    color:#ff1111;
+}
+a:hover{
+    color:rgb(255, 37, 190); 
+    text-decoration: underline;
+}
+
+.tableau{
+    position: absolute;
+    color: white;
+    border-collapse: collapse;
+    text-align: center;
+    top: 280px;
+    width: 40%;
+}
+
+.tableau th {
+    border: 3px solid #ff1111;;
+    padding: 8px;
+    font-size: 30px;
+    font-family: Coolvetica;
+    background-color: rgba(0, 0, 0, 0.712);
+  }
+  
+  .tableau td {
+    border: 3px solid #ff1111; 
+    padding: 8px; 
+    font-size: 30px;
+    font-family: Coolvetica;
+    background-color: rgba(0, 0, 0, 0.712);
+  }
+
+  .louviers{
+    position: absolute;
+    left: 1000px;
+    top:280px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color:#070622;
+    border:3px solid #ff1111;  
+    margin-top: 640px;
+    font-family: Coolvetica;
+    color:white;
+    font-size: 25px;
+    height: 200px;
+}
+
+.liens img,.liens img:hover{
+    height: auto;
+    width: 50px;
+    margin-left: 20px;
+}
+.liens img:hover{ /* à préciser */
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+footer p{
+    text-align: right;
+    font-size: 35px;
+    margin-right: 40px;
+    top:40px;
+}
+
+
+footer p a:link{
+    color:red
+}
+footer p a:hover {
+color:white
+}
+footer p a:visited{
+    color:#ff1111;
+}

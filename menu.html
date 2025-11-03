@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOS MENUS</title>
+    <link rel="stylesheet" href="styles/style2.css">
+    <script>
+        function toggleText(cardId) {
+            var card = document.getElementById(cardId);
+            var paragraph = card.getElementsByTagName('p')[0];
+            
+            if (paragraph.style.display === 'none') {
+                paragraph.style.display = 'block';
+                card.getElementsByTagName('img')[0].style.display = 'none';
+            } else {
+                paragraph.style.display = 'none';
+                card.getElementsByTagName('img')[0].style.display = 'block';
+            }
+        }
+    </script>
+</head>
+<body>
+    <header>
+    <div class="logo"> <img src="images/afterlifelogo2.png" alt="AFTERLIFE"></div>
+         <nav>
+             <ul>
+                 <li><a href="index.html">Accueil</a></li>
+                 <li><a href="contact.html">Nous contacter</a></li>
+                 <li><a href="nous.html">A propos de nous</a></li>
+                 <li><a href="maps.html"><img src="images/mapss.png" alt="gglmap"> </a></li>
+             </ul>
+         </nav>
+     </header>
+     
+     <section>
+     <div class="titre"><h1>Nos menus</h1></div>
+     <div class="card-container">
+         <div class="card" id="card1" onclick="toggleText('card1')">
+             <h1>Menu Johnny Silverhand</h1>
+             <p style="display: none;">Des bons Yakitoris fait soit à base de Boeuf, de Porc, de Poulet ou de Thon. Menu adaptés aux vegans possible, veuillez nous contacter.</p>
+             <p><img src="images/yakitoris.jpg" alt="Yakitoris"></p>
+         </div>
+         <div class="card" id="card2" onclick="toggleText('card2')">
+            <h1>Menu Jackie Welles</h1>
+            <p style="display: none;">De déliceux Udons faites à base de Nouilles, d'Oeufs, de Champignons et de Porc.Menu adaptés aux vegans possible, veuillez nous contacter. </p>
+            <p><img src="images/udons.jpg" alt="Udons"></p>
+        </div>
+        <div class="card" id="card3" onclick="toggleText('card3')">
+            <h1>Menu Dexter Deshawn</h1>
+            <p style="display: none;">Les meilleurs sushis du coin, disponibles au Thon(épicé ou non), Saumon, Tempura Poulet, Avocat, Courgettes. Menu adaptés aux vegans possible, veuillez nous contacter.</p>
+            <p><img src="images/sushis.jpg" alt="Sushis"></p>
+        </div>
+        <div class="card" id="card4" onclick="toggleText('card4')">
+            <h1>Menu Adam Smasher</h1>
+            <p style="display: none;">Les bols de ramens les plus savoureux de Night City, à base de Nouilles, d'Oeufs, de Champignons et de Porc ou Poulet ou Boeuf.Menu adaptés aux vegans possible, veuillez nous contacter.</p>
+            <p><img src="images/ramens.jpeg" alt="Ramens"></p>
+        </div>
+        <div class="card" id="card5" onclick="toggleText('card5')">
+            <h1>Une petite faim ?</h1>
+            <p style="display: none;">Nous proposons des Dangos, des Mochis et toute sortes de desserts japonais, de boissons avec ou sans alcool. Aucune des proposition ici n'est adaptés aux vegans car il y a aucun produits venant d'animaux.</p>
+            <p><img src="images/dangos.jpg" alt="Dangos"></p>
+        </div>
+    </div>
+</section>
+    
+
+
+    <footer>
+        <p class="liens">Retrouvez-nous sur : <a href="https://www.instagram.com/" target=_blank><img src="images/insta_logo.png" alt="Instagram"></a><a href="https://twitter.com/?lang=fr" target=_blank><img src="images/twitter_logo.png" alt="X"></a></p>
+         <p><a href="https://www.cdprojektred.com/en" target="_blank">En collaboration avec CDProject RED</a> </p> 
+   </footer>
+</body>
+</html>

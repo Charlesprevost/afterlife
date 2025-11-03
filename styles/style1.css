@@ -1,0 +1,132 @@
+@font-face { font-family: GlitchGoblin; src: url('../fonts/GlitchGoblin-2O87v.ttf'); } 
+@font-face { font-family: Coolvetica; src: url('../fonts/coolvetica.otf'); } 
+@font-face { font-family: Cedge; src: url('../fonts/cedge1.ttf'); } 
+@font-face { font-family: goodtimes; src: url('../fonts/goodtimes.otf'); } 
+
+
+
+
+
+html,body{
+    background-color: rgb(10, 10, 10);
+    background-image:url(../images/afterlife1.webp);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-size: 150%;
+    background-position: 50% 10%;
+
+}
+
+h1{
+    color: rgb(255, 5, 159);
+    text-align: left;
+    font-family: goodtimes;
+}
+.logo img{
+    float: left;
+    width: 500px;
+    height: auto;
+}
+
+header{
+    background-color:#070622;
+    color: rgb(255, 5, 159);
+    font-family: Coolvetica;
+    text-align: left;
+    font-size: 35px;   
+    border:3px solid rgb(0, 247, 255);
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul{
+ padding:0;
+ color: white;
+ font-family: Coolvetica;
+ }
+nav li {
+ display: inline;
+ margin-left: 150px;
+}
+nav li img{
+    height: auto;
+    width: 80px;
+    position: absolute;
+    top:35px;
+    right:90px;
+}
+
+
+nav li img:hover{
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+a:link{
+    color:white;
+}
+
+a:visited{
+    color:#00d9ff
+}
+a:hover{
+    color:rgb(255, 37, 190); 
+    text-decoration: underline;
+}
+
+#pres{
+    background-color:#000000;
+    border:3px solid rgb(0, 247, 255);  
+    margin:0 auto;
+    margin-top: 220px;
+    width: 1000px;
+    height: 622px;
+
+}
+    #pres{
+    font-family: Coolvetica;
+    text-align: center;
+    color:rgb(0, 247, 255);
+    font-size: 50px;
+    text-decoration: underline;
+}
+footer{
+    background-color:#070622;
+    border:3px solid rgb(0, 247, 255);  
+    margin-top: 100px;
+    font-family: Coolvetica;
+    color:white;
+    font-size: 25px;
+}
+
+.liens img,.liens img:hover{
+    height: auto;
+    width: 50px;
+    margin-left: 20px;
+}
+.liens img:hover{ /* à préciser : augmenter la taille quand on passe la souris dessus*/
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+footer p{
+    text-align: right;
+    font-size: 35px;
+    margin-right: 40px;
+    top:40px;
+}
+
+
+footer p a:link{
+    color:red
+}
+footer p a:hover {
+color:white
+}
+footer p a:visited{
+    color:rgb(0, 247, 255);
+}
+

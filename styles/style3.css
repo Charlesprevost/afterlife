@@ -1,0 +1,373 @@
+@font-face { font-family: GlitchGoblin; src: url('../fonts/GlitchGoblin-2O87v.ttf'); } 
+@font-face { font-family: Coolvetica; src: url('../fonts/coolvetica.otf'); } 
+@font-face { font-family: Cedge; src: url('../fonts/cedge1.ttf'); } 
+@font-face { font-family: goodtimes; src: url('../fonts/goodtimes.otf'); } 
+
+
+
+
+
+
+html, body{
+    background-image: url(../images/nc2077.jpg);
+}
+h1{
+    color: rgb(255, 5, 159);
+    text-align: left;
+    font-family: goodtimes;
+}
+.logo img{
+    float: left;
+    width: 500px;
+    height: auto;
+}
+
+header{
+    background-color:#070622;
+    border: 3px solid #00ff9f;
+    color: rgb(255, 5, 159);
+    font-family: Coolvetica;
+    text-align: center;
+    font-size: 35px;   
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+nav ul{
+ padding:0;
+ color: white;
+ font-family: Coolvetica;
+ }
+nav li {
+ display: inline;
+ margin-left: 150px;
+}
+nav li img{
+    height: auto;
+    width: 80px;
+    position: absolute;
+    top:35px;
+    right:90px;
+}
+
+
+
+
+nav li img:hover{
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+a:link{
+    color:white;
+}
+
+a:visited{
+    color:#f2e900;
+}
+a:hover{
+    color:rgb(255, 37, 190); 
+    text-decoration: underline;
+}
+
+
+
+
+.qui h2{
+    color:white;
+    background-color: rgba(0, 0, 0, 0.877);
+    font-family: goodtimes;
+    border:3px solid #00ff9f;
+    width: 700px;
+    font-size:40px;
+    height: 298px;
+    text-align: center;
+    margin-left: 80px;
+}
+.qui p {
+    border: 3px solid #00ff9f;;
+    position: absolute;
+    top:560px;
+    font-family:Coolvetica;
+    color:white;
+    width: 700px;
+    height: 250px;
+    font-size: 21px;
+    text-align: center;
+    margin-left: 80px;
+    top: 211px;
+}
+.vente h2{
+    color:white;
+    background-color: rgba(0, 0, 0, 0.877);
+    font-family: goodtimes;
+    border:3px solid #00ff9f;
+    width: 700px;
+    font-size:40px;
+    height: 224px;
+    text-align: center;
+    margin-left: 80px;
+}
+.vente p {
+    border: 3px solid #00ff9f;;
+    position: absolute;
+    top:560px;
+    font-family:Coolvetica;
+    color:white;
+    width: 700px;
+    height: 176px;
+    font-size: 21px;
+    text-align: center;
+    margin-left: 80px;
+    top: 550px;
+}
+
+.lieu h2{
+    color:white;
+    background-color: rgba(0, 0, 0, 0.877);
+    font-family: goodtimes;
+    border:3px solid #00ff9f;
+    width: 700px;
+    font-size:40px;
+    height: 208px;
+    text-align: center;
+    margin-left: 80px;
+}
+.lieu p{
+    border: 3px solid #00ff9f;;
+    position: absolute;
+    top:560px;
+    font-family:Coolvetica;
+    color:white;
+    width: 700px;
+    height: 155px;
+    font-size: 21px;
+    text-align: center;
+    margin-left: 80px;
+    top: 816px;
+}
+.ethn h2{
+    color:white;
+    background-color: rgba(0, 0, 0, 0.87);
+    font-family: goodtimes;
+    border:3px solid #00ff9f;
+    width: 700px;
+    font-size:40px;
+    height: 280px;
+    text-align: center;
+    margin-left: 80px;
+}
+.ethn p{
+    border: 3px solid #00ff9f;;
+    position: absolute;
+    top:560px;
+    font-family:Coolvetica;
+    color:white;
+    width: 700px;
+    height: 177px;
+    font-size: 21px;
+    text-align: center;
+    margin-left: 80px;
+    top:1110px;
+}
+
+
+
+
+
+
+
+
+
+.who h2{
+    position: absolute;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.815);
+    font-family: goodtimes;
+    border:3px solid #00ff9f;
+    width: 700px;
+    font-size:40px;
+    height: 290px;
+    text-align: center;
+    margin-left: 1193px;
+    top: 800px;
+}
+.who p{
+    position: absolute;
+    border: 3px solid #00ff9f;
+    top:225px;
+    font-family:Coolvetica;
+    color:white;
+    width: 700px;
+    height: 230px;
+    font-size: 21px;
+    text-align: center;
+    margin-left: 1193px;
+    top: 870px;
+}
+.sell h2{
+    position: absolute;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.829);
+    font-family: goodtimes;
+    border:3px solid #00ff9f;
+    width: 700px;
+    font-size:40px;
+    height: 160px;
+    text-align: center;
+    margin-left: 1193px;
+    top: 1130px;
+}
+.sell p {
+    position: absolute;
+    border: 3px solid #00ff9f;;
+    top:560px;
+    font-family:Coolvetica;
+    color:white;
+    width: 700px;
+    height: 104px;
+    font-size: 21px;
+    text-align: center;
+    margin-left: 1193px;
+    top: 1200px;
+}
+
+.where h2{
+    position: absolute;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.822);
+    font-family: goodtimes;
+    border:3px solid #00ff9f;
+    width: 700px;
+    font-size:40px;
+    height: 184px;
+    text-align: center;
+    margin-left: 1193px;
+    top:1330px;
+}
+.where p{
+    position: absolute;
+    border: 3px solid #00ff9f;;
+    top:560px;
+    font-family:Coolvetica;
+    color:white;
+    width: 700px;
+    height: 130px;
+    font-size: 21px;
+    text-align: center;
+    margin-left: 1193px;
+    top: 1397px;
+}
+.appr h2{
+    position: absolute;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.675);
+    font-family: goodtimes;
+    border:3px solid #00ff9f;
+    width: 700px;
+    font-size:40px;
+    height: 233px;
+    text-align: center;
+    margin-left: 1193px;
+    top: 1555px;
+
+}
+.appr p{
+    position: absolute;
+    border: 3px solid #00ff9f;;
+    top:560px;
+    font-family:Coolvetica;
+    color:white;
+    width: 700px;
+    height: 131px;
+    font-size: 21px;
+    text-align: center;
+    margin-left: 1193px;
+    top: 1670px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.japanf {
+    position: absolute;
+    left: 88px;
+    border:3px solid #00ff9f;
+}
+
+
+.street img{
+    position: absolute;
+    left: 900px;
+    bottom: 300px;
+    height: auto;
+    width: 1000px;
+    border: 3px solid #00ff9f;
+}
+footer{
+    background-color:#070622;
+    border:3px solid #00ff9f;  
+    margin-top: 600px;
+    font-family: Coolvetica;
+    color:white;
+    font-size: 25px;
+    height: 200px;
+}
+
+.liens img,.liens img:hover{
+    height: auto;
+    width: 50px;
+    margin-left: 20px;
+}
+.liens img:hover{ /* à préciser */
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+footer{
+    margin-top: 700px;
+}
+footer p{
+    text-align: right;
+    font-size: 35px;
+    margin-right: 40px;
+    top:40px;
+}
+
+
+footer p a:link{
+    color:red
+}
+footer p a:hover {
+color:white
+}
+footer p a:visited{
+    color:rgb(0, 247, 255);
+}
+
+
+
+
